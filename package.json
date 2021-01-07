@@ -23,7 +23,8 @@
     "standard-version": "^9.1.0",
     "typescript": "3.9.7",
     "webpack": "^5.11.1",
-    "webpack-cli": "^4.3.1"
+    "webpack-cli": "^4.3.1",
+    "yorkie": "^2.0.0"
   },
   "gitHooks": {
     "pre-commit": "lint-staged",
@@ -32,9 +33,6 @@
   "lint-staged": {
     "*.js": [
       "prettier --write"
-    ],
-    "*.ts": [
-      "prettier --parser=typescript --write"
     ]
   }
 }

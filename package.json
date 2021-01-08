@@ -1,12 +1,12 @@
 {
   "name": "import-globby",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "ES6 import with glob patterns (preloader for Webpack)",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
     "release": "./scripts/release.sh",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "keywords": [],
   "author": "",
